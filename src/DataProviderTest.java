@@ -2,14 +2,10 @@
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-
-
 import org.testng.annotations.DataProvider;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
-
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -33,7 +29,7 @@ public class DataProviderTest extends Base {
 
 	}
 
-	@Test(dataProvider = "test2")
+	@Test(dataProvider = "test1")
 	public void testForm(String firstName, String lastName, String gender, String hobbies, String department,
 			String username, String password, String confirmPassword, String email, String contact,
 			String additionalInfo) {
