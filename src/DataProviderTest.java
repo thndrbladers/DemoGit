@@ -1,5 +1,3 @@
-
-
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import org.testng.annotations.DataProvider;
@@ -16,7 +14,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class DataProviderTest extends Base {
-
+	/* This instantiates browser*/
 	@BeforeClass
 	public void setUp() {
 		try {
